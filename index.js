@@ -21,7 +21,7 @@ app.use(
 
 mongoose
   .connect(
-    `mongodb+srv://ankit:ankit%40123@cluster0.0l92tbr.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://ankit:ankit%40123@cluster0.0l92tbr.mongodb.net/emp-devlopment?retryWrites=true&w=majority`
   )
   .then(() => {
     console.log("Database is Connected...!!!");
